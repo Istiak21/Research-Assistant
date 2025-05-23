@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-The **AI Research Assistant** is an interactive Streamlit web application that leverages Together AI’s `meta-llama/Llama-3-8b-chat-hf` model to help users generate structured research reports on any topic of interest.  
+The **AI Research Assistant** is an interactive Streamlit web application that leverages Meta’s `meta-llama/Llama-3-8b-chat-hf` model to help users generate structured research reports on any topic of interest.  
 
 The app performs the following workflow:
 1. **Generates three tailored research questions** for the given topic.
@@ -16,7 +16,7 @@ The app performs the following workflow:
 
 - AI-generated research questions for any topic.
 - Automated web research powered by **Selenium** and **headless Chrome**.
-- AI-generated summaries using Together AI’s Llama 3 model.
+- AI-generated summaries using Meta's Llama 3 model from Together.ai API.
 - Clean, interactive web UI built with **Streamlit**.
 - Option to reset and run multiple research sessions.
 
@@ -40,6 +40,7 @@ In your terminal, navigate to the project directory and run:
 
 ```bash
 streamlit run Assistant.py
+```
 
 This will open the AI Research Assistant web interface in your browser.
 
@@ -56,6 +57,8 @@ This will open the AI Research Assistant web interface in your browser.
 ---
 
 ## 📣 Acknowledgements
+
+[Hugging Face](https://huggingface.co) for hosting the LLM "Llama-3-8b-chat-hf"
 
 [Together.ai](https://together.ai) for providing the LLM API.
 
